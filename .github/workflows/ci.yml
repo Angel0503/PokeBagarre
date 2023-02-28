@@ -1,6 +1,5 @@
 on:
-  pull_request:
-  push:
+  [push]
 jobs:
   build-test:
     name: Build & Test
